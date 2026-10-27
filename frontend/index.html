@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WhyTrace · Digital forensics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="brand">
+        <span class="mark">WT</span>
+        <div>
+          <strong>WhyTrace</strong>
+          <p>Evidence-backed investigation</p>
+        </div>
+      </div>
+      <div class="top-meta">
+        <span id="llm-status">checking model…</span>
+        <button id="run" type="button">Investigate this case</button>
+      </div>
+    </header>
+
+    <section class="casebar">
+      <div>
+        <h1 id="case-title">Loading case…</h1>
+        <p id="case-question"></p>
+      </div>
+      <dl id="source-counts" class="counts"></dl>
+    </section>
+
+    <p id="stage" class="stage" hidden></p>
+
+    <main class="layout">
+      <section class="col">
+        <h2>Findings</h2>
+        <ol id="findings" class="findings"></ol>
+      </section>
+      <section class="col wide">
+        <h2>Timeline</h2>
+        <div id="timeline" class="timeline"></div>
+      </section>
+      <section class="col">
+        <h2>Why this event</h2>
+        <article id="detail" class="detail empty">
+          Select a finding or an event.
+        </article>
+      </section>
+    </main>
+
+    <section class="bottom">
+      <div>
+        <h2>Attack story</h2>
+        <ol id="narrative"></ol>
+      </div>
+      <div>
+        <h2>Still unanswered</h2>
+        <ul id="unanswered"></ul>
+      </div>
+    </section>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>

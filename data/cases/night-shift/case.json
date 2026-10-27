@@ -1,0 +1,14 @@
+{
+  "id": "night-shift",
+  "title": "CASE-2026-1014 · After-hours access on jmartinez",
+  "org": "Northline Capital",
+  "opened_at": "2026-10-14T06:02:11Z",
+  "question": "Was Jordan Martinez's account used to steal finance data overnight, and what is the evidence?",
+  "sources": [
+    { "id": "identity", "kind": "hr_asset", "path": "sources/identity.jsonl" },
+    { "id": "auth", "kind": "vpn_and_directory", "path": "sources/auth.jsonl" },
+    { "id": "process", "kind": "endpoint_telemetry", "path": "sources/process.jsonl" },
+    { "id": "file", "kind": "file_server_audit", "path": "sources/file.jsonl" },
+    { "id": "network", "kind": "proxy_and_flow", "path": "sources/network.jsonl" }
+  ]
+}

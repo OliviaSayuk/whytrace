@@ -1,0 +1,20 @@
+{"id": "auth-001", "ts": "2026-10-14T13:04:11Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "10.20.8.41", "result": "success", "details": {}}
+{"id": "auth-002", "ts": "2026-10-14T13:05:02Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "kerberos_tgt", "src_ip": "10.20.8.41", "result": "success", "details": {}}
+{"id": "auth-003", "ts": "2026-10-14T14:22:40Z", "source": "auth", "host": "VPN-GW", "user": "jpatel", "action": "vpn_login", "src_ip": "10.20.8.18", "result": "success", "details": {}}
+{"id": "auth-004", "ts": "2026-10-14T16:11:09Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "file_share_auth", "src_ip": "10.20.8.41", "object": "\\\\FILE-SRV-02\\finance", "result": "success", "details": {}}
+{"id": "auth-005", "ts": "2026-10-14T20:58:33Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_logout", "src_ip": "10.20.8.41", "result": "success", "details": {}}
+{"id": "auth-006", "ts": "2026-10-14T21:10:01Z", "source": "auth", "host": "VPN-GW", "user": "jpatel", "action": "vpn_logout", "src_ip": "10.20.8.18", "result": "success", "details": {}}
+{"id": "auth-007", "ts": "2026-10-14T23:40:12Z", "source": "auth", "host": "DC-01", "user": "svc.backup", "action": "service_login", "src_ip": "10.30.1.9", "result": "success", "details": {}}
+{"id": "auth-008", "ts": "2026-10-15T02:11:04Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-009", "ts": "2026-10-15T02:11:19Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-010", "ts": "2026-10-15T02:11:33Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-011", "ts": "2026-10-15T02:11:48Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-012", "ts": "2026-10-15T02:12:07Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-013", "ts": "2026-10-15T02:12:22Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "failure", "details": {"reason": "bad_password"}}
+{"id": "auth-014", "ts": "2026-10-15T02:14:08Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_login", "src_ip": "185.220.101.47", "result": "success", "details": {}}
+{"id": "auth-015", "ts": "2026-10-15T02:14:41Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "kerberos_tgt", "src_ip": "10.40.2.77", "details": {"note": "VPN-assigned address"}, "result": "success"}
+{"id": "auth-016", "ts": "2026-10-15T02:16:02Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "rdp_logon", "src_ip": "10.40.2.77", "object": "LAPTOP-JM-14", "result": "success", "details": {}}
+{"id": "auth-017", "ts": "2026-10-15T02:28:19Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "file_share_auth", "src_ip": "10.40.2.77", "object": "\\\\FILE-SRV-02\\finance", "result": "success", "details": {}}
+{"id": "auth-018", "ts": "2026-10-15T02:41:55Z", "source": "auth", "host": "DC-01", "user": "jmartinez", "action": "file_share_auth", "src_ip": "10.40.2.77", "object": "\\\\FILE-SRV-02\\C$", "result": "success", "details": {}}
+{"id": "auth-019", "ts": "2026-10-15T03:12:44Z", "source": "auth", "host": "VPN-GW", "user": "jmartinez", "action": "vpn_logout", "src_ip": "185.220.101.47", "result": "success", "details": {}}
+{"id": "auth-020", "ts": "2026-10-15T03:40:00Z", "source": "auth", "host": "DC-01", "user": "svc.backup", "action": "service_login", "src_ip": "10.30.1.9", "result": "success", "details": {}}
